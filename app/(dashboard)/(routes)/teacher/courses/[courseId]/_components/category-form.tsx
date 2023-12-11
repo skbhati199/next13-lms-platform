@@ -37,7 +37,7 @@ export const CategoryForm = ({
   courseId,
   options,
 }: CategoryFormProps) => {
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
 
   const toggleEdit = () => setIsEditing((current) => !current);
 
