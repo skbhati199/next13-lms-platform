@@ -9,9 +9,6 @@
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
-  "prisma": {
-    "seed": "ts-node ./scripts/seed.ts"
-  },
   "dependencies": {
     "@clerk/nextjs": "^4.23.5",
     "@hello-pangea/dnd": "^16.3.0",
@@ -29,13 +26,20 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-table": "^8.9.11",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
     "@uploadthing/react": "^5.5.0",
+    "autoprefixer": "10.4.15",
     "axios": "^1.5.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.12",
     "lucide-react": "^0.276.0",
-    "next": "14.0.4",
+    "next": "13.4.12",
+    "postcss": "8.4.29",
     "query-string": "^8.1.0",
     "react": "18.2.0",
     "react-confetti": "^6.1.0",
@@ -44,25 +48,18 @@
     "react-hook-form": "^7.46.1",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
-    "react-quill": "^0.0.2",
+    "react-quill": "^2.0.0",
     "recharts": "^2.8.0",
     "stripe": "^13.6.0",
     "tailwind-merge": "^1.14.0",
+    "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.2.2",
     "uploadthing": "^5.5.3",
     "zod": "^3.22.2",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "prisma": "^5.3.0",
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "prisma": "^5.3.0"
   }
 }
